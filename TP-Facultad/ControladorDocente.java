@@ -37,11 +37,5 @@ public class ControladorDocente implements IExportarArchivo {
         // TODO implement here
     }
 
-    /**
-     * @param list<Curso>
-     */
-    public void exportar(void list<Curso>) {
-        // TODO implement here
-    }
 
 }

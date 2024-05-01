@@ -31,6 +31,12 @@ public class ProgramaPrincipal {
 		estudiante2.setCarrera(carrera2);
 		estudiante3.setCarrera(carrera3);
 		estudiante4.setCarrera(carrera1);
+
+
+		Docente docente1 = new Docente ("Esteban", "Lamonte", 35);
+		Docente docente2 = new Docente ("Carmen", "Lopez", 22);
+
+		
 		
 		// TODO Auto-generated method stub
 

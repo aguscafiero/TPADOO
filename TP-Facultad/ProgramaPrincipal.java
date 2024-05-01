@@ -6,7 +6,10 @@ public class ProgramaPrincipal {
 	public static void main(String[] args) {
 		
 		
-		Carrera carrera = new Carrera("Ingenieria en Sistemas");
+		Carrera carrera1 = new Carrera("Ingenieria en Sistemas");
+		Carrera carrera2 = new Carrera("Derecho");
+		Carrera carrera3 = new Carrera("Ingenieria Quimica");
+
 		
 		ControladorCarrera controladorCarrera = new ControladorCarrera();
 		
@@ -18,10 +21,16 @@ public class ProgramaPrincipal {
 		
 	    controladorCarrera.agregarMateria(materias);
 		
-		Estudiante estudiante1 = new Estudiante("Maria", "Luzzi", 1234, true, carrera);
+		Estudiante estudiante1 = new Estudiante("Maria", "Luzzi", 1234, true, carrera1);
+		Estudiante estudiante2 = new Estudiante("Agustina", "Cafiero", 2234, true, carrera2);
+		Estudiante estudiante3 = new Estudiante("Yancamil", "Gomez Lopez", 7654, true, carrera3);
+		Estudiante estudiante4 = new Estudiante("Jose", "Sparks", 9987, true, carrera1);
 	
 		
-		estudiante1.setCarrera(carrera);
+		estudiante1.setCarrera(carrera1);
+		estudiante2.setCarrera(carrera2);
+		estudiante3.setCarrera(carrera3);
+		estudiante4.setCarrera(carrera1);
 		
 		// TODO Auto-generated method stub
 
